@@ -1,0 +1,98 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": [ "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can search for the cheapest flights, track tickets prices, inform you about hotels and   their price ", "Offering support for voyage agencies, booking hotels, flights"],
+         "context": [""]
+        },
+        {"tag": "adverse",
+         "patterns": ["I'd like to book a flight", "I want to travel", "Give me a list of available flights", "List all available flights that can lead me to my destination", "Which flights are the cheapest right now?" ],
+         "responses": ["Super! Please select the type of search:    One way (->)   or    Return ( <-> )"],
+         "context": [""]
+        },
+        {"tag": "country",
+         "patterns": ["One way ", "Return", "One way (->)", "Return ( <-> )", "<->" ],
+         "responses": ["Enter the country of departure (e.g.:Morocco)."],
+         "context": [""]
+        },
+        {"tag": "city",
+         "patterns": ["Morocco", "France", "Spain", "Italy", "Netherland" ],
+         "responses": ["Enter the city of departure (e.g.: Tangier)."],
+         "context": [""] 
+        },
+        {"tag": "arrival",
+         "patterns": ["rabat"],
+         "responses": ["Now, enter the city of arrival (e.g.: Paris)"],
+         "context": [""]
+        },
+        {"tag": "city_search",
+         "patterns": ["Paris", "Madrid", "Milan", "Bruxelle", "Toulouse" ],
+         "responses": ["Good choice! Specify the date of departure (e.g.: 20.06)"],
+         "context": [""]
+        },
+        {"tag": "date",
+         "patterns": ["01.08"],
+         "responses": ["Great! Specify the date of Return flight (e.g.:26.06)"],
+         "context": [""]
+        },
+        {"tag": "flight_search",
+         "patterns": ["07.08"],
+         "responses": ["Ok, give me a few seconds"],
+         "context": [""]
+        },
+        {"tag": "search_by_params",
+         "patterns": ["ok"],
+         "responses": ["     Rabat - Milan, 01.08.2021                          RBA - MIL-ALL Airoport                      6:10am - 11:10pm                                  price : 483$ "],
+         "context": [""]
+        },
+        {"tag": "Hotels",
+         "patterns": ["Are there any hotels there approximetly"],
+         "responses": ["Do you want to know informations about hotels ?"],
+         "context": [""]
+        },
+        {"tag": "info",
+         "patterns": ["yes"],
+         "responses": ["Great! How many days you're going to spend in a hotel?"],
+         "context": [""]
+        },
+        {"tag": "days",
+         "patterns": ["3", "2", "4", "5", "10", "15"],
+         "responses": ["Cool , specify the date of arrival to the hotel (e.g.: 21.06)"],
+         "context": [""]
+        },
+        {"tag": "time",
+         "patterns": ["02.08"],
+         "responses": ["specify the time of arrival to the hotel (e.g.: 21:06)"],
+         "context": [""]
+        },
+        {"tag": "list_hotels",
+         "patterns": ["12:00"],
+         "responses": ["Great! here is a list of hotels that suits your standards : spice hotel milano, 43 station hotel, uptown palace, hotel ritter, the square milano duomo.  You can pick one of them for more informations !"],
+         "context": [""]
+        },
+        {"tag": "choice",
+         "patterns": ["Uptown Palace"],
+         "responses": ["Great choice! Price per day : 1718 MAD. Located a 5-minute walk from Missori Metro Station in Milan, the contemporary Uptown Palace offers a restaurant and a high-tech conference center. "],
+         "context": [""]
+        }
+   ]
+}
