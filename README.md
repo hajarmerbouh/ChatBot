@@ -1,3 +1,11 @@
+
+**Vidéo Demo afin de tester le fonctionnement du chatbot**
+
+>> on va supposer qu’une personne a envie de voyager de Rabat (Maroc) à Milan ( Italie).Pour cela, elle a besoin des informations concernant le prix des vols, la 
+disponibilité des hôtels et d’autres informations liées au voyage prévu.
+
+https://user-images.githubusercontent.com/77699359/205625527-2b115a65-3010-488b-8666-5304800280fc.mp4
+
 **Structure du fichier Chatbot**
 
 **Train_chatbot.py :** Dans ce fichier, nous allons créer et former le modèle de deep learning. Ce dernier va classer et identifier ce que l’utilisateur demande au robot.
@@ -18,10 +26,4 @@ classer lorsque nous prédisons le message.
 **Words.pkl :** Le fichier pickle words.pkl contient tous les mots uniques qui constituent le 
 vocabulaire de notre modèle.
 
-**Vidéo Demo afin de tester le fonctionnement du chatbot**
-
->> on va supposer qu’une personne a envie de voyager de Rabat (Maroc) à Milan ( Italie).Pour cela, elle a besoin des informations concernant le prix des vols, la 
-disponibilité des hôtels et d’autres informations liées au voyage prévu.
-
-https://user-images.githubusercontent.com/77699359/205625527-2b115a65-3010-488b-8666-5304800280fc.mp4
 
